@@ -1,6 +1,7 @@
-maintainer       "Substantial Inc."
-maintainer_email "shaun@substantial.com"
+name             "firefox-esr"
+maintainer       "beubi"
+maintainer_email "hugo.fonseca@beubi.com"
 license          "All rights reserved"
-description      "Installs/Configures firefox"
+description      "Installs firefox ESR"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
-version          "0.0.3"
+version          "0.0.1"
