@@ -30,6 +30,4 @@ default[:firefox]["38.2.0"] = {
 # to see sha512 go to:
 # http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/31.3.0esr/SHA512SUMS
 
-default[:firefox]["ESR"] = node[:firefox]["38.2.0"]
-
-default[:firefox][:versions] = [ "ESR" ]
+default[:firefox][:versions] = [ node[:firefox]["38.2.0"][:firefox_dir] ]
