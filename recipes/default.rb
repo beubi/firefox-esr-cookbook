@@ -22,6 +22,11 @@ if platform?('ubuntu')
   end
 
   node[:firefox][:versions].each do |firefox_version|
+    
+    if ::File.directory?("#{dir_path}/#{firefox_version}") && ::File.exists?("#{dir_path}/#{firefox_version}")
+      break
+    end
+    
     directory "#{dir_path}/#{firefox_version}" do
       mode "0755"
       action :create
