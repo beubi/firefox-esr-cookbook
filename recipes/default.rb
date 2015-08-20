@@ -50,7 +50,7 @@ if platform?('ubuntu')
     end
 
     link "/usr/bin/firefox" do
-      to "#{firefox_version_path}/#{firefox[:firefox_dir]}/firefox"
+      to "#{firefox_version_path}/firefox/firefox"
     end
   end
 end
