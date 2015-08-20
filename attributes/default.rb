@@ -22,7 +22,7 @@ default[:firefox]["31.3.0"] = {
 default[:firefox]["38.2.0"] = {
  :url => "https://download.mozilla.org/?product=firefox-38.2.0esr-SSL&os=linux64&lang=en-US",
  :filename => "firefox-38.2.0esr.tar.bz2",
- :sha => "50586323f887cc31c6924359ad7c402c757b93b91a5e4deb2347921802fab3ef5296cfa48d0b85602042916b3966ef804718a3a3458e5fef0509e8e9f1eb64ad",
+ :sha => "872fc255ca93a61e5048d2ac18c3f381cbd729e72a01dead7e773b5feede1266",
  :firefox_dir => 'firefox'
 }
 
