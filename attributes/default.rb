@@ -26,6 +26,23 @@ default[:firefox]["38.2.0"] = {
  :firefox_dir => 'firefox_3820'
 }
 
+default[:firefox]["38.8.0"] = {
+ :url => "https://download.mozilla.org/?product=firefox-38.8.0esr-SSL&os=linux64&lang=en-US",
+ :filename => "firefox-38.8.0esr.tar.bz2",
+ :sha => "b851903635824e76e1b4960c9296bf039913383f5f1a7f07e9ac091edaf37f2c",
+ :firefox_dir => 'firefox_3880'
+}
+
+default[:firefox]["45.2.0"] = {
+ :url => "https://download.mozilla.org/?product=firefox-45.2.0esr-SSL&os=linux64&lang=en-US",
+ :filename => "firefox-45.2.0esr.tar.bz2",
+ :sha => "8eb51168d86cbb87cb039ec9a31320f4239c4e8ea7901a092bf63973b47e3f8e",
+ :firefox_dir => 'firefox_4520'
+}
+
+# latest esr
+# https://download.mozilla.org/?product=firefox-esr-latest&os=linux&lang=en-US
+
 # the above are sha256
 # to see sha512 go to:
 # http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/31.3.0esr/SHA512SUMS
