@@ -52,6 +52,13 @@ default[:firefox]["45.2.0-32"] = {
  :firefox_dir => 'firefox32_4520'
 }
 
+default[:firefox]["45.3.0-64"] = {
+ :url => "https://download.mozilla.org/?product=firefox-45.3.0esr-SSL&os=linux64&lang=en-US",
+ :filename => "firefox-45.3.0esr.tar.bz2",
+ :sha => "edde12b6f75c55a9b08516ac1f57ba57ebcd24628da4f1e82a6258aab3a93448",
+ :firefox_dir => 'firefox64_4530'
+}
+
 # latest esr
 # https://download.mozilla.org/?product=firefox-esr-latest&os=linux&lang=en-US
 
